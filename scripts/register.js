@@ -63,9 +63,9 @@ btnSubmit.addEventListener("click", function () {
       }
     }
 
-    // thong bao va yeu cau nguoi dung nhap username khi username bi bo trong
-    if (username.length <= 8) {
-      alert("Please input for username must be more than 8 characters");
+    // thong bao va yeu cau nguoi dung nhap password khi password bi bo trong
+    if (password.length <= 8) {
+      alert("Please input for password must be more than 8 characters");
       break check;
     }
 
